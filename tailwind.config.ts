@@ -1,0 +1,19 @@
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  content: [
+    "./app/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        display: ["Jua", "sans-serif"],
+        body: ["Gowun Dodum", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+};
+
+export default config;
